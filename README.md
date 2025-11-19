@@ -1,4 +1,79 @@
-🏥 ProAcolhe - CSC (Combate à Sífilis Congênita)Sistema de Apoio à Decisão Clínica (SADC) focado no rastreio, manejo e tratamento da Sífilis Congênita e Adquirida no contexto da Atenção Primária.🎯 Sobre o ProjetoO ProAcolhe - CSC é uma aplicação Desktop desenvolvida para modernizar o atendimento na UBS "Comunidade Viva"2. O sistema resolve o problema da infraestrutura instável e falta de internet 3operando com uma arquitetura Offline-First44.O objetivo principal é garantir a adesão aos Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) do Ministério da Saúde 5, automatizando cálculos complexos de dosagem de Penicilina e reduzindo erros de prescrição médica6.🚀 Funcionalidades Principais🧠 Calculadora Clínica Inteligente (PCDT)Motor de decisão automatizado que processa variáveis biométricas para sugerir condutas terapêuticas777:Sífilis Congênita: Cálculo preciso baseado em Peso, Idade em Dias e alterações no LCR8.Sífilis Adquirida: Protocolos diferenciados para Gestantes e diferentes estágios da doença (Recente/Tardia)9.Travas de Segurança: Impede cálculos sem dados vitais (Peso/Altura) para evitar subdosagem10.📄 Gestão de Prontuários e PrescriçõesCadastro completo de pacientes com validação de Cartão SUS (CNS)11.Geração automática de Receituário em PDF formatado para impressão (A4), com linha de assinatura médica automática12.👥 Controle de Acesso Hierárquico (RBAC)Sistema de permissões granulares para diferentes perfis13:Gerente: Gestão total de equipe e dados.Médico: Acesso completo às ferramentas clínicas.Enfermeiro: Triagem e cadastro.📊 Dashboard EstatísticoVisualização em tempo real da distribuição de casos e indicadores de saúde da unidade14.🛠️ Tecnologias UtilizadasO projeto foi migrado da arquitetura antiga (Python/Tkinter) para uma Stack Web Moderna encapsulada em Desktop151515, garantindo interface rica e alta performance.Frontend: React (v18) + TypeScript16.Build Tool: Vite.Estilização: Tailwind CSS + Lucide React (Ícones)17.Banco de Dados Local: IndexedDB (via Dexie.js) - Garante persistência dos dados sem necessidade de servidor ou internet18181818.Desktop Wrapper: Electron - Transforma a aplicação web em um executável .exe nativo para Windows.Segurança: Bcrypt.js para hash de senhas19.Gráficos: Recharts.📸 Capturas de Tela(Adicione aqui prints do seu sistema funcionando)DashboardCalculadora ClínicaPrint do DashboardPrint da Calculadora⚙️ Instalação e ExecuçãoPré-requisitosNode.js (v18 ou superior).Rodando o Código FonteBash# Clone o repositório
+# 🏥 ProAcolhe - CSC (Combate à Sífilis Congênita)
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+
+> **Sistema de Apoio à Decisão Clínica (SADC)** focado no rastreio, manejo e tratamento da Sífilis Congênita e Adquirida no contexto da Atenção Primária.
+
+---
+
+## 🎯 Sobre o Projeto
+
+O **ProAcolhe - CSC** é uma aplicação Desktop desenvolvida para modernizar o atendimento na UBS "Comunidade Viva". O sistema resolve o problema da infraestrutura instável e falta de internet operando com uma arquitetura **Offline-First**.
+
+O objetivo principal é garantir a adesão aos **Protocolos Clínicos e Diretrizes Terapêuticas (PCDT)** do Ministério da Saúde, automatizando cálculos complexos de dosagem de Penicilina e reduzindo erros de prescrição médica.
+
+---
+
+## 🚀 Funcionalidades Principais
+
+### 🧠 Calculadora Clínica Inteligente (PCDT)
+Motor de decisão automatizado que processa variáveis biométricas para sugerir condutas terapêuticas:
+- **Sífilis Congênita:** Cálculo preciso baseado em Peso, Idade em Dias e alterações no LCR.
+- **Sífilis Adquirida:** Protocolos diferenciados para Gestantes e diferentes estágios da doença (Recente/Tardia).
+- **Travas de Segurança:** Impede cálculos sem dados vitais (Peso/Altura) para evitar subdosagem.
+
+### 📄 Gestão de Prontuários e Prescrições
+- Cadastro completo de pacientes com validação de Cartão SUS (CNS).
+- Geração automática de **Receituário em PDF** formatado para impressão (A4), com linha de assinatura médica automática.
+
+### 👥 Controle de Acesso Hierárquico (RBAC)
+Sistema de permissões granulares para diferentes perfis:
+- **Gerente:** Gestão total de equipe e dados.
+- **Médico:** Acesso completo às ferramentas clínicas.
+- **Enfermeiro:** Triagem e cadastro.
+
+### 📊 Dashboard Estatístico
+- Visualização em tempo real da distribuição de casos e indicadores de saúde da unidade.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto utiliza uma **Stack Web Moderna encapsulada em Desktop**, garantindo interface rica e alta performance.
+
+| Categoria | Tecnologia |
+|-----------|------------|
+| **Frontend** | React (v18) + TypeScript |
+| **Build Tool** | Vite |
+| **Estilização** | Tailwind CSS + Lucide React |
+| **Database** | IndexedDB (via Dexie.js) - *Offline First* |
+| **Desktop** | Electron |
+| **Segurança** | Bcrypt.js |
+| **Gráficos** | Recharts |
+
+---
+
+## 📸 Capturas de Tela
+
+| Dashboard | Calculadora Clínica |
+|:---:|:---:|
+| *(Adicione aqui o print)* | *(Adicione aqui o print)* |
+
+---
+
+## ⚙️ Instalação e Execução
+
+### Pré-requisitos
+- Node.js (v18 ou superior)
+
+### Rodando o Código Fonte
+
+```bash
+# Clone o repositório
 git clone https://github.com/seu-usuario/proacolhe-csc.git
 
 # Entre na pasta
@@ -12,5 +87,34 @@ npm run dev
 
 # Execute em modo Desktop (Electron)
 npm run electron:dev
-Gerando o Executável (Build)Para criar o instalador/executável .exe para Windows:Bashnpm run dist
-O arquivo será gerado na pasta release.🔒 Segurança e PrivacidadeArmazenamento Local: Todos os dados clínicos residem exclusivamente na máquina do usuário (IndexedDB), garantindo conformidade com a infraestrutura limitada da UBS e maior privacidade20202020.Criptografia: Senhas de usuários são armazenadas apenas como hash criptográfico, nunca em texto plano21.⚕️ Aviso LegalEste software é um Sistema de Apoio à Decisão Clínica. Ele serve como ferramenta auxiliar e não substitui o julgamento clínico profissional. Todas as decisões terapêuticas devem ser validadas pelo profissional de saúde responsável.👨‍💻 AutorVicente O. Fresillo 22Desenvolvedor Full Stack & Analista de SistemasDesenvolvido como parte do TCC para a Health Tech Soluções em Saúde Ltda. 23
+```
+
+### Gerando o Executável (Build)
+Para criar o instalador/executável `.exe` para Windows:
+
+```bash
+npm run dist
+```
+> O arquivo será gerado na pasta `release`.
+
+---
+
+## 🔒 Segurança e Privacidade
+
+- **Armazenamento Local:** Todos os dados clínicos residem exclusivamente na máquina do usuário (IndexedDB), garantindo conformidade com a infraestrutura limitada da UBS e maior privacidade.
+- **Criptografia:** Senhas de usuários são armazenadas apenas como hash criptográfico, nunca em texto plano.
+
+---
+
+## ⚕️ Aviso Legal
+
+> ⚠️ **Importante:** Este software é um **Sistema de Apoio à Decisão Clínica**. Ele serve como ferramenta auxiliar e **não substitui o julgamento clínico profissional**. Todas as decisões terapêuticas devem ser validadas pelo profissional de saúde responsável.
+
+---
+
+## 👨‍💻 Autor
+
+**Vicente O. Fresillo**
+*Desenvolvedor Full Stack & Analista de Sistemas*
+
+Desenvolvido como parte do TCC para a Health Tech Soluções em Saúde Ltda.
