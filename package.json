@@ -1,0 +1,47 @@
+{
+  "name": "proacolhe-csc",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "description": "Sistema de Apoio à Decisão Clínica - Sífilis",
+  "author": "Vicente Orlando",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dist": "vite build && electron-builder"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "dexie": "3.2.4",
+    "lucide-react": "0.292.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "2.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "electron": "^39.2.2",
+    "electron-builder": "^26.0.12",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  },
+  "build": {
+    "appId": "com.vicente.proacolhe",
+    "productName": "ProAcolhe-CSC",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/main.cjs"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "public/icon.ico",
+      "verifyUpdateCodeSignature": false
+    }
+  }
+}
