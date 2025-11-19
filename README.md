@@ -100,7 +100,21 @@ npm run dist
 
 ## ⚕️ Aviso Legal
 
-> ⚠️ **Importante:** Este software é um **Sistema de Apoio à Decisão Clínica**. Ele serve como ferramenta auxiliar e **não substitui o julgamento clínico profissional**. Todas as decisões terapêuticas devem ser validadas pelo profissional de saúde responsável.
+> ⚠️ **Importante:**
+
+⚖️ Isenção de Responsabilidade (Disclaimer)
+
+⚠️ PROJETO DE CARÁTER EDUCACIONAL
+
+O presente software ("Sistema de Apoio à Decisão Clínica") é um protótipo desenvolvido por estudante para fins de avaliação acadêmica.
+
+Proibição de Uso Comercial ou Clínico: É estritamente vedado o uso desta ferramenta em hospitais, clínicas ou para o atendimento ao público.
+
+Ausência de Precisão Científica: Embora baseado em protocolos reais, o código não passou por rigorosos testes de qualidade de software (QA) ou validação clínica, podendo conter erros críticos.
+
+Natureza do Software: Este é um exercício de programação e engenharia de software, não um dispositivo médico certificado.
+
+** O AUTOR NÃO AUTORIZA NENHUM TIPO DE USO DO SOFTWARE, QUE NÃO SEJA ACADÊMICO**
 
 ---
 
@@ -109,4 +123,4 @@ npm run dist
 **Vicente O. Fresillo**
 *Desenvolvedor Full Stack & Analista de Sistemas*
 
-Desenvolvido como parte do TCC para a Health Tech Soluções em Saúde Ltda.
+Desenvolvido como parte de trabalho de faculdade para a empresa fictícia Health Tech Soluções em Saúde Ltda.
