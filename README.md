@@ -57,14 +57,6 @@ O projeto utiliza uma **Stack Web Moderna encapsulada em Desktop**, garantindo i
 
 ---
 
-## 📸 Capturas de Tela
-
-| Dashboard | Calculadora Clínica |
-|:---:|:---:|
-| *(Adicione aqui o print)* | *(Adicione aqui o print)* |
-
----
-
 ## ⚙️ Instalação e Execução
 
 ### Pré-requisitos
